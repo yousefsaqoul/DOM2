@@ -21,3 +21,21 @@ big = () => {
 }
 
 
+// --------------------_______________________------------------------
+let zahl = document.getElementById('clickme')
+overButton = () => {
+    for (let i = 0; i < 10; i++) {
+
+    }
+
+}
+
+
+// --------------------_______________________------------------------
+
+
+let myFunction = document.getElementById('my-select')
+let result = document.getElementById('option-selected')
+myFunction.addEventListener('change', function (event) {
+    result.textContent = ` sie haben ${event.target.value} ausgewält`
+})
