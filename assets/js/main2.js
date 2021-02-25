@@ -37,5 +37,5 @@ overButton = () => {
 let myFunction = document.getElementById('my-select')
 let result = document.getElementById('option-selected')
 myFunction.addEventListener('change', function (event) {
-    result.textContent = ` sie haben ${event.target.value} ausgewält`
+    result.textContent = "sie haben" + ' ' + event.target.value + ' ' + "ausgewält"
 })
